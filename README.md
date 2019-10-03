@@ -1,2 +1,4 @@
-# troubles-with-seuss
-This repository contains the starter file for the Trouble with Seuss example.
+# Trouble with Seuss
+
+## Objective
+In this example, find and fix all syntax and logic errors. 
