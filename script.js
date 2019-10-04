@@ -3,7 +3,15 @@ const subheaderStyle = 'font-size: 16px; font-weight: bold; font-family: sans-se
 
 function sortByTitle () {
   books.sort(function (a, b) {
-    return a.title - b.title
+    if (a.title < b.title) {
+      return -1
+    }
+
+    if (a.title > b.title) {
+      return 1
+    }
+
+    return 0
   })
 }
 
